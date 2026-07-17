@@ -1,0 +1,49 @@
+key,de-DE,R,en-US,R,da-DK,R,fi-FI,R,sv-SE,R,fr-FR,R,it-IT,R,es-ES,R
+custom.data.type.link.config.option.mask.editor_style.value.inline,Eingebettet,FALSE,Embeded,FALSE,Embeded,FALSE,Upotettu,FALSE,Inbäddad,FALSE,Intégré,FALSE,,FALSE,,FALSE
+custom.data.type.link.config.option.mask.editor_style.value.popover,Popover,FALSE,Popover,FALSE,Popover,FALSE,Ponnahdusikkuna,FALSE,Popup-fönster,FALSE,Popover,FALSE,,FALSE,,FALSE
+custom.data.type.link.config.option.schema.title.type.none,Ohne,FALSE,None,FALSE,None,FALSE,Ei mitään,FALSE,Ingen,FALSE,Aucun,FALSE,,FALSE,,FALSE
+custom.data.type.link.config.option.schema.title.type.text,Einsprachig,FALSE,Monolingual,FALSE,Monolingual,FALSE,Yksikielien,FALSE,Enspråkig,FALSE,Monolingue,FALSE,,FALSE,,FALSE
+custom.data.type.link.config.option.schema.title.type.text-l10n,Mehrsprachig,FALSE,Multilingual,FALSE,Multilingual,FALSE,Monikielinen,FALSE,Flerspråkig,FALSE,Multilingue,FALSE,,FALSE,,FALSE
+custom.data.type.link.config.parameter.mask.editor_style.value.label,Editor-Stil,FALSE,Editor style,FALSE,Editor style,FALSE,Editorin tyyli,FALSE,Editor-stil,FALSE,Style d'éditeur,FALSE,,FALSE,,FALSE
+custom.data.type.link.config.parameter.schema.add_timestamp.value.checkbox,Mit Datumsangabe,FALSE,With date,FALSE,With date,FALSE,Päiväyksellä,FALSE,Med datum,FALSE,Avec date,FALSE,,FALSE,,FALSE
+custom.data.type.link.config.parameter.schema.add_timestamp.value.label,-,FALSE,-,FALSE,-,FALSE,-,FALSE,-,FALSE,-,FALSE,,FALSE,,FALSE
+custom.data.type.link.config.parameter.schema.title.type.label,Titel,FALSE,Title,FALSE,Title,FALSE,Otsikko,FALSE,Titel,FALSE,Titre,FALSE,,FALSE,,FALSE
+custom.data.type.link.edit.button|icon,edit,FALSE,edit,FALSE,edit,FALSE,edit,FALSE,edit,FALSE,edit,FALSE,,FALSE,,FALSE
+custom.data.type.link.edit.button|tooltip,Weblink hinzufügen.,FALSE,Add weblink.,FALSE,Add weblink.,FALSE,Lisää verkkolinkki.,FALSE,Lägg till webblänk.,FALSE,Ajoutez un lien Web.,FALSE,,FALSE,,FALSE
+custom.data.type.link.edit.modal.title|text,Weblink konfigurieren,FALSE,Edit weblink.,FALSE,Edit weblink.,FALSE,Muokkaa verkkolinkkiä.,FALSE,Redigera webblänk.,FALSE,Modifier le lien Web.,FALSE,,FALSE,,FALSE
+custom.data.type.link.edit.no_link,Kein Weblink vorhanden.,FALSE,No weblink available.,FALSE,No weblink available.,FALSE,Ei verkkolinkkejä.,FALSE,Ingen webblänk tillgänglig.,FALSE,Aucun lien Web disponible.,FALSE,,FALSE,,FALSE
+custom.data.type.link.edit.no_valid_link,Weblink ungültig.,FALSE,Weblink is invalid.,FALSE,Weblink is invalid.,FALSE,Verkkolinkki ei kelpaa.,FALSE,Webblänken är ogiltig.,FALSE,Le lien Web n'est pas valide.,FALSE,,FALSE,,FALSE
+custom.data.type.link.edit.template.missing_placeholders,Alle Template Felder müssen ausgefüllt sein.,FALSE,All template fields are required.,FALSE,All template fields are required.,FALSE,Kaikki mallin kentät ovat pakollisia.,FALSE,Alla mallfält är obligatoriska.,FALSE,Tous les champs du modèle sont obligatoires.,FALSE,,FALSE,,FALSE
+custom.data.type.link.modal.form.datetime.label,Datum,FALSE,Date,FALSE,Date,FALSE,Päiväys,FALSE,Datum,FALSE,Date,FALSE,,FALSE,,FALSE
+custom.data.type.link.modal.form.text.label,Linktext,FALSE,Link text,FALSE,Link text,FALSE,Teksti,FALSE,Text,FALSE,Texte du lien,FALSE,,FALSE,,FALSE
+custom.data.type.link.modal.form.text.placeholder,Angezeigter Text,FALSE,Displayed Text,FALSE,Displayed Text,FALSE,Näytettävä teksti,FALSE,Visad text,FALSE,Texte affiché,FALSE,,FALSE,,FALSE
+custom.data.type.link.modal.form.url.label,Link,FALSE,Link,FALSE,Link,FALSE,Linkki,FALSE,Länk,FALSE,Lien,FALSE,,FALSE,,FALSE
+custom.data.type.link.modal.form.url.placeholder,URL,FALSE,URL,FALSE,URL,FALSE,Verkkolinkit,FALSE,Webblänk,FALSE,URL,FALSE,,FALSE,,FALSE
+custom.data.type.link.name,Weblink,FALSE,Weblink,FALSE,Weblink,FALSE,Verkkolinkki,FALSE,Webblänk,FALSE,Lien Web,FALSE,,FALSE,,FALSE
+custom.data.type.link.preview.label,Vorschau,FALSE,Preview,FALSE,Preview,FALSE,Esikatselu,FALSE,Förhandsvisning,FALSE,Aperçu,FALSE,,FALSE,,FALSE
+custom.data.type.link.setting.schema.rendered_options.title.none,Ohne Titel,FALSE,Without title,FALSE,Without title,FALSE,Ilman otsikkoa,FALSE,Utan titel,FALSE,Sans titre,FALSE,,FALSE,,FALSE
+custom.data.type.link.setting.schema.rendered_options.title.text,Einsprachiger Titel,FALSE,Monolingual title,FALSE,Monolingual title,FALSE,Yksikielinen otsikko,FALSE,Enspråkig titel,FALSE,Titre monolingue,FALSE,,FALSE,,FALSE
+custom.data.type.link.setting.schema.rendered_options.title.text-l10n,Mehrsprachiger Titel,FALSE,Multilingual title,FALSE,Multilingual title,FALSE,Monikielinen otsikko,FALSE,Flerspråkig titel,FALSE,Titre multilingue,FALSE,,FALSE,,FALSE
+custom.data.type.link.setting.schema.rendered_options.with_date,Mit Datumsangabe,FALSE,With date,FALSE,With date,FALSE,Päiväyksellä,FALSE,Med datum,FALSE,Avec date,FALSE,,FALSE,,FALSE
+custom.data.type.link.setting.schema.rendered_options.without_date,Ohne Datumsangabe,FALSE,Without date,FALSE,Without date,FALSE,Ilman päiväystä,FALSE,Utan datum,FALSE,Sans date,FALSE,,FALSE,,FALSE
+custom.data.type.link.template.select,- Kein Template -,FALSE,- No template -,FALSE,- No template -,FALSE,- Ei mallia -,FALSE,- Ingen mall -,FALSE,- Aucun modèle -,FALSE,,FALSE,,FALSE
+custom.data.type.link.template.select.label,Template auswählen,FALSE,Choose a template,FALSE,Choose a template,FALSE,Valitse malli,FALSE,Välj en mall,FALSE,Choisissez un modèle,FALSE,,FALSE,,FALSE
+custom.data.type.link.url.tooltip,**%(url)s** in separatem Fenster öffnen.,FALSE,Open **%(url)s** in new window.,FALSE,Open **%(url)s** in new window.,FALSE,Avaa **%(url)s** uudessa ikkunassa.,FALSE,Öppna **%(url)s** i nytt fönster.,FALSE,Ouvrez **%(url)s** dans une nouvelle fenêtre.,FALSE,,FALSE,,FALSE
+custom.data.type.link.url.tooltip_with_datetime,**%(url)s** in separatem Fenster öffnen.\n\nZitiert am: %(datetime)s.,FALSE,Open **%(url)s** in new window.\n\nQuote date: %(datetime)s.,FALSE,Open **%(url)s** in new window.\n\nQuote date: %(datetime)s.,FALSE,Avaa **%(url)s** uudessa ikunassa.\n\nViittauspäiväys: %(datetime)s.,FALSE,Öppna **%(url)s** i nytt fönster.\\n\\nCitatdatum: %(datetime)s.,FALSE,Ouvrez **%(url)s** dans une nouvelle fenêtre.\n\nCiter la date : %(datetime)s.,FALSE,,FALSE,,FALSE
+custom.data.type.link.valid_url,Es muss eine gültige URL eingegeben werden.,FALSE,A valid URL is required.,FALSE,A valid URL is required.,FALSE,Kelvollinen URL vaaditaan.,FALSE,En giltig URL krävs.,FALSE,Une URL valide est requise.,FALSE,,FALSE,,FALSE
+"server.config.group.system.plugin_custom-data-type-link.introduction
+",Einstellungen für das Weblink-Plugin,FALSE,Settings for the Weblink plugin,FALSE,Settings for the Weblink plugin,FALSE,Weblink-laajennuksen asetukset,FALSE,Inställningar för Weblink-plugin,FALSE,Paramètres du plugin Weblink,FALSE,,FALSE,,FALSE
+server.config.group.system.plugin_custom-data-type-link.title,Weblink,FALSE,Weblink,FALSE,Weblink,FALSE,Weblink,FALSE,Webblänk,FALSE,Lien Web,FALSE,,FALSE,,FALSE
+server.config.group.system.weblink.introduction,Mit Hilfe des Weblink-Plugins lassen sich Templates für Links erstellen um die Eingabe zu erleichtern.,FALSE,Configure templates to create weblinks faster.,FALSE,Configure templates to create weblinks faster.,FALSE,Muokkaa malleja nopeuttaaksesi verkkolinkkien muodostamista.,FALSE,Konfigurera mallar för att skapa webblänkar snabbare.,FALSE,Configurez des modèles pour créer des liens Web plus rapidement.,FALSE,,FALSE,,FALSE
+server.config.group.system.weblink.title,Weblink,FALSE,Weblink,FALSE,Weblink,FALSE,Verkkolinkit,FALSE,Webblänk,FALSE,Lien Web,FALSE,,FALSE,,FALSE
+server.config.name.system.weblink,Konfiguration für Weblinks,FALSE,Configuration for weblinks,FALSE,Configuration for weblinks,FALSE,Verkkolinkkien konfigurointi,FALSE,Konfiguration för webblänkar,FALSE,Configuration des liens Web,FALSE,,FALSE,,FALSE
+server.config.parameter.system.weblink.placeholders.displayname.label,Name,FALSE,Label,FALSE,Label,FALSE,Otsake,FALSE,Etikett,FALSE,Étiquette,FALSE,,FALSE,,FALSE
+server.config.parameter.system.weblink.placeholders.key.label,Variable,FALSE,Variable,FALSE,Variable,FALSE,Muuttuja,FALSE,Variabel,FALSE,Variable,FALSE,,FALSE,,FALSE
+server.config.parameter.system.weblink.templates.displayname.label,Anzeigetext,FALSE,Display text,FALSE,Display text,FALSE,Näyttönimi,FALSE,Visa text,FALSE,Afficher le texte,FALSE,,FALSE,,FALSE
+server.config.parameter.system.weblink.templates.label,Templates,FALSE,Templates,FALSE,Templates,FALSE,Mallit,FALSE,Mallar,FALSE,Modèles,FALSE,,FALSE,,FALSE
+server.config.parameter.system.weblink.templates.name.label,Name,FALSE,Name,FALSE,Name,FALSE,Nimi,FALSE,Namn,FALSE,Nom,FALSE,,FALSE,,FALSE
+server.config.parameter.system.weblink.templates.placeholders.displayname.label,Anzeigename,FALSE,Displayname,FALSE,Displayname,FALSE,Näyttönimi,FALSE,Visningsnamn,FALSE,Afficher le nom,FALSE,,FALSE,,FALSE
+server.config.parameter.system.weblink.templates.placeholders.key.label,Key,FALSE,Key,FALSE,Key,FALSE,Avain,FALSE,Nyckel,FALSE,Clé,FALSE,,FALSE,,FALSE
+server.config.parameter.system.weblink.templates.placeholders.label,Variablen,FALSE,Variables,FALSE,Variables,FALSE,Muuttujat,FALSE,Variabler,FALSE,Variables,FALSE,,FALSE,,FALSE
+server.config.parameter.system.weblink.templates.url.label,URL,FALSE,URL,FALSE,URL,FALSE,URL,FALSE,URL,FALSE,URL,FALSE,,FALSE,,FALSE
+custom.data.type.link.invalid_url,Die angegebene URL hat kein gültiges Format.,TRUE,The URL provided does not have a valid format.,FALSE,,FALSE,,FALSE,,FALSE,,FALSE,,FALSE,,FALSE

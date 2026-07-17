@@ -1,0 +1,19 @@
+# Build configuration for fylr-build-plugin — the explicit build description.
+# All features: https://github.com/programmfabrik/fylr-build-plugin
+
+webfrontend:
+  # CoffeeScript 1.x, compiled + concatenated in this order into
+  # plugin.webfrontend.url (webfrontend/custom-data-type-link.js)
+  coffee1:
+    - webfrontend/CustomDataTypeLink.coffee
+    - webfrontend/CustomDataTypeLinkFacet.coffee
+    - webfrontend/CustomDataTypeLinkColumnCSVImporterDestinationField.coffee
+  # the webfrontend loads its loca as per-culture JSONs, generated from the CSV
+  l10n_json:
+    - csv: l10n/custom-data-type-link.csv
+
+loca:
+  # mastered in the custom-data-types Google Sheet (shared with the ez5 plugin)
+  - csv: l10n/custom-data-type-link.csv
+    sheet: 1Z3UPJ6XqLBp-P8SUf-ewq4osNJ3iZWKJB83tc6Wrfn0
+    gid: "480475519"

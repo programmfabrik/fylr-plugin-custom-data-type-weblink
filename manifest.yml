@@ -1,0 +1,73 @@
+plugin:
+  name: custom-data-type-link
+  version: 1.0
+  url: https://github.com/programmfabrik/fylr-plugin-custom-data-type-link
+  displayname:
+    en-US: "Custom Data Type: Weblink"
+    de-DE: "Custom Data Type: Weblink"
+  info:
+    de-DE: Mit dem Weblink Plugin können Internet-Links verwaltet werden.
+    en-US: Use the plugin to store internet links.
+  webfrontend:
+    url: custom-data-type-link.js
+    l10n: l10n/
+
+base_url_prefix: "webfrontend"
+
+custom_types:
+  link:
+    mapping:
+      url:
+        type: text_oneline
+      text_plain:
+        type: text
+      tld:
+        type: text_oneline
+      text:
+        type: text_l10n
+    config:
+      schema:
+        - name: title
+          parameters:
+            type:
+              type: select
+              options: ["none", "text", "text-l10n"]
+        - name: add_timestamp
+          parameters:
+            value:
+              type: bool
+      mask:
+        - name: editor_style
+          parameters:
+            value:
+              type: select
+              options: ["inline",  "popover"]
+
+base_config:
+  - name: weblink
+    group: weblink
+    parameters:
+      templates:
+        type: table
+        fields:
+          - name: name
+            type: text-l10n
+            position: 0
+          - name: url
+            type: text
+            regex: "^https?://[^/]+?([a-z0-9]|/.*)$"
+            position: 1
+          - name: displayname
+            type: text-l10n
+            position: 2
+          - name: placeholders
+            type: table
+            fields:
+              - name: key
+                type: text
+                position: 0
+              - name: displayname
+                type: text-l10n
+                position: 1
+            position: 0
+        position: 0
