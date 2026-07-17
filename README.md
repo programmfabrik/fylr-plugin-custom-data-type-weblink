@@ -1,4 +1,4 @@
-# fylr-plugin-custom-data-type-link
+# fylr-plugin-custom-data-type-weblink
 
 A [fylr](https://docs.fylr.io) plugin providing the custom data type **`link`**
 ("Weblink"): store internet links in your records, with link validation,
@@ -14,7 +14,7 @@ Open the fylr Plugin Manager and add a new plugin of type "url". This URL
 always links to the latest released version:
 
 ```
-https://github.com/programmfabrik/fylr-plugin-custom-data-type-link/releases/latest/download/fylr-plugin-custom-data-type-link.zip
+https://github.com/programmfabrik/fylr-plugin-custom-data-type-weblink/releases/latest/download/fylr-plugin-custom-data-type-weblink.zip
 ```
 
 ## Configuration
@@ -44,7 +44,7 @@ Google Sheet — edit there and run `make loca`, never edit the CSV directly.
 ## Contact
 
 For issues and questions please use
-[the issue tracker](https://github.com/programmfabrik/fylr-plugin-custom-data-type-link/issues)
+[the issue tracker](https://github.com/programmfabrik/fylr-plugin-custom-data-type-weblink/issues)
 or write to support@programmfabrik.de.
 
 ---

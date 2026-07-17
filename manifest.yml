@@ -1,7 +1,7 @@
 plugin:
   name: custom-data-type-link
   version: 1.0
-  url: https://github.com/programmfabrik/fylr-plugin-custom-data-type-link
+  url: https://github.com/programmfabrik/fylr-plugin-custom-data-type-weblink
   displayname:
     en-US: "Custom Data Type: Weblink"
     de-DE: "Custom Data Type: Weblink"
