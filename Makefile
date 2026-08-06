@@ -12,10 +12,10 @@
 FYLR_BUILD_PLUGIN ?= go run github.com/programmfabrik/fylr-build-plugin@latest
 
 # The tool itself reads NO environment variables — everything is passed as
-# flags. The release workflow's RELEASE_TAG / ZIP_NAME env is translated into
-# flags right here.
+# flags. The release workflow's RELEASE_TAG env is translated into a flag
+# right here. The zip's NAME is not passed: fylr-build-plugin always names
+# it <plugin.name>.zip, the naming rule for every fylr plugin release.
 RELEASE_FLAGS = $(if $(RELEASE_TAG),-release "$(RELEASE_TAG)")
-ZIP_FLAGS = $(RELEASE_FLAGS) $(if $(ZIP_NAME),-out "$(ZIP_NAME)")
 
 help:
 	@grep -E '^[a-zA-Z_-]+:.*?## .*$$' $(MAKEFILE_LIST) | sort | awk 'BEGIN {FS = ":.*?## "}; {printf "\033[36m%-30s\033[0m %s\n", $$1, $$2}'
@@ -26,7 +26,7 @@ build: ## build the plugin into build/<name>/ — loadable by fylr via plugin.pa
 	$(FYLR_BUILD_PLUGIN) build $(RELEASE_FLAGS)
 
 zip: ## build the release zip
-	$(FYLR_BUILD_PLUGIN) zip $(ZIP_FLAGS)
+	$(FYLR_BUILD_PLUGIN) zip $(RELEASE_FLAGS)
 
 loca: ## pull the loca CSV from its Google Sheets master (build.yml)
 	$(FYLR_BUILD_PLUGIN) loca
