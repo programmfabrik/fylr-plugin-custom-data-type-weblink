@@ -2,12 +2,14 @@
 # All features: https://github.com/programmfabrik/fylr-build-plugin
 
 webfrontend:
-  # CoffeeScript 1.x, compiled + concatenated in this order into
-  # plugin.webfrontend.url (webfrontend/custom-data-type-link.js)
-  coffee1:
-    - webfrontend/CustomDataTypeLink.coffee
-    - webfrontend/CustomDataTypeLinkFacet.coffee
-    - webfrontend/CustomDataTypeLinkColumnCSVImporterDestinationField.coffee
+  # assembled into plugin.webfrontend.url, in this order:
+  # .coffee is compiled (CoffeeScript 1.x), .scss compiled,
+  # anything else taken verbatim
+  bundles:
+    - sources:
+        - webfrontend/CustomDataTypeLink.coffee
+        - webfrontend/CustomDataTypeLinkFacet.coffee
+        - webfrontend/CustomDataTypeLinkColumnCSVImporterDestinationField.coffee
   # the webfrontend loads its loca as per-culture JSONs, generated from the CSV
   l10n_json:
     - csv: l10n/custom-data-type-link.csv
